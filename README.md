@@ -1,2 +1,2 @@
 # Cricket-ball-physics
-Investigating the factors behind the motion of a Cricket as it is bowled. Takes a look at both pace bowling and spin bowling, taking into account factors such as air resistance, launch speed, launch angle, and surface interaction.
+This project analyzes the physics of cricket ball motion during bowling. It examines how factors such as release speed, launch angle, air resistance, spin, and surface interaction affect the ball’s trajectory. The project focuses on two major bowling styles: pace bowling, where swing is influenced by aerodynamic forces, and spin bowling, where turn depends on spin rate, friction, and pitch conditions.
