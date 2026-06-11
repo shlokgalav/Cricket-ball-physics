@@ -26,19 +26,20 @@ For spin bowling, I want to study how the ball changes direction after pitching.
 - pitch surface
 - bounce
 - turn after contact with the ground
+  
 ## Model Progression
 
 ### Version 1: Basic Projectile Motion
 The ball moves under gravity only.
 
 ### Version 2: Projectile Motion With Drag
-The ball moves under gravity and air resistance.
+The ball moves under the influence of gravity and air resistance.
 
 ### Version 3: Pace Bowling and Swing
-The model includes sideways movement caused by aerodynamic effects.
+The model includes sideways movement caused by aerodynamic effects, such as the Magnus effect.
 
 ### Version 4: Spin Bowling and Surface Interaction
-The model looks at how spin and pitch friction affect turn after bounce.
+The model examines how spin and pitch friction affect the turn after a bounce.
 
 ## Initial Assumptions
 - The ball is treated as a point mass.
@@ -46,7 +47,6 @@ The model looks at how spin and pitch friction affect turn after bounce.
 - Wind is ignored at first.
 - Air resistance is ignored in Version 1.
 - Spin is ignored in Version 1.
-- The first model is meant to be simple, not fully realistic.
 
 ## What I Need to Learn
 - Basic projectile motion
