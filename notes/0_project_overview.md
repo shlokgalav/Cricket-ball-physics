@@ -1,12 +1,12 @@
 #Project Overview
 ## Main Question
-What factors influence the motion of a Cricket ball as it is bowled, and how can this be visualized using Physics and Python?
+What factors influence the motion of a cricket ball as it is bowled, and how can this be visualized using physics and python?
 
 ## Project Goal
 The goal of this project is to understand the physical phenomena that affect the motion of a Cricket ball and to create a computational model of a cricket ball.
 
 ## Project Progression
-I will start with the most basic Physics model, which includes the principles of projectile motion, and then gradually add in realistic factors such as air resistance, swing, spin, and surface interaction.
+I will start with the most basic physics model, which includes the principles of projectile motion, and then gradually add in realistic factors such as air resistance, swing, spin, and surface interaction.
 
 ## Bowling Types Covered
 
