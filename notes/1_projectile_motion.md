@@ -25,27 +25,53 @@ The first version of the model relies on basic Newtonian mechanics and projectil
 | t | time |
 
 ## Basic Equations
-Initial velocity components:
 
-vx = v0 cos(theta)
+The initial velocity is split into horizontal and vertical components:
 
-vy = v0 sin(theta)
+$$
+v_x = v_0 \cos(\theta)
+$$
 
-vi = Sqrt(vx^2 + vy^2)
+$$
+v_y = v_0 \sin(\theta)
+$$
 
-Position:
+The speed of the ball can be written as:
 
-x_new = x + vx * dt
+$$
+v = \sqrt{v_x^2 + v_y^2}
+$$
 
-y_new = y + vy * dt
+The position is updated step by step:
 
-Note: The simulation will be stopped at y <= 0, which represents the pitch. 
+$$
+x_{new} = x + v_x \Delta t
+$$
 
-Velocity update:
+$$
+y_{new} = y + v_y \Delta t
+$$
 
-vy_new = vy - g * dt
+The vertical velocity changes because of gravity:
 
-vx_new = vx
+$$
+v_{y,new} = v_y - g\Delta t
+$$
+
+The horizontal velocity stays constant in this first model because there is no air resistance:
+
+$$
+v_{x,new} = v_x
+$$
+
+The simulation stops when:
+
+$$
+y \leq 0
+$$
+
+This represents the ball reaching the ground or pitch surface.
+
 
 # Expected Model Output
 This model should show a basic parabolic trajectory of the ball as seen in most basic projectile motion problems. Later on, this model will be compared with the following models, which will include realistic effects to see how factors such as drag, swing, and spin affect the ball's trajectory.
