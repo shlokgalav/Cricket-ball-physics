@@ -28,15 +28,17 @@ The first version of the model relies on basic Newtonian mechanics and projectil
 Initial velocity components:
 vx = v0 cos(theta)
 vy = v0 sin(theta)
-vi = $\{vx + vy}$
+vi = Sqrt(vx^2 + vy^2)
 
 Position:
 x_new = x + vx * dt
 y_new = y + vy * dt
 
+Note: The simulation will be stopped at y <= 0, which represents the pitch. 
+
 Velocity update:
 vy_new = vy - g * dt
 vx is constant throughout since there is no force in the X - direction.
 
-# Predicted model output
+# Expected Model Output
 This model should show a basic parabolic trajectory of the ball as seen in most basic projectile motion problems. Later on, this model will be compared with the following models, which will include realistic effects to see how factors such as drag, swing, and spin affect the ball's trajectory.
