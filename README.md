@@ -3,4 +3,4 @@ This project analyzes the physics of cricket ball motion during bowling. It exam
 
 ## First Model Output
 The first version of the model simulates the motion of a cricket ball under gravity only.
-![Basic projectile motion trajectory](Figures/basic_projectile_motion.png)
+![Basic projectile motion trajectory](figures/basic_projectile_motion.png)
