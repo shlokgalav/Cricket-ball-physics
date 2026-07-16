@@ -77,4 +77,4 @@ This represents the ball reaching the ground or pitch surface.
 This model should show a basic parabolic trajectory of the ball as seen in most basic projectile motion problems. Later on, this model will be compared with the following models, which will include realistic effects to see how factors such as drag, swing, and spin affect the ball's trajectory.
 
 ## Model Output
-![Basic projectile motion trajectory](../Figures/basic_projectile_motion.png)
+![Basic projectile motion trajectory](../figures/basic_projectile_motion.png)
