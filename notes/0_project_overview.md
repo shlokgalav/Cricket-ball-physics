@@ -29,8 +29,11 @@ For spin bowling, I want to study how the ball changes direction after pitching.
   
 ## Model Progression
 
-### Version 1: Basic Projectile Motion
+### Version 1A: Basic Projectile Motion
 The ball moves under gravity only.
+
+### Version 1B: Basic bounce model
+The ball still moves under gravity only, but this model will consider the trajectory changes due to the bounce while ignoring swing or spin.
 
 ### Version 2: Projectile Motion With Drag
 The ball moves under the influence of gravity and air resistance.
