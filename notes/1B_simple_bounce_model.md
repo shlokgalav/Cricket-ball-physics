@@ -85,3 +85,7 @@ The vertical velocity will reverse direction and decrease in magnitude.
 This model should show a basic parabolic trajectory, before the bounce, of the ball as seen in most basic projectile motion problems. After bouncing, the ball's velocity should reduce by a certain factor known as the coefficient of restitution. After the contact with the pitch, the trajectory will be a second, lower parabolic path since the vertical speed of the ball reduces.  
 
 ## Model Output
+
+The simple bounce model adds one pitch contact using a coefficient of restitution.
+
+![Simple bounce model](figures/basic_bounce_motion.png)
