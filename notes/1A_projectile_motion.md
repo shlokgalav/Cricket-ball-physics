@@ -1,7 +1,7 @@
 # Projectile Motion
 
 ## Goal
-The first version of the model relies on basic Newtonian mechanics and projectile motion principles, which take into account only gravity. This is the baseline model, which helps in understanding the simplest possible motion of the ball before understanding how factors such as drag, swing, spin, or surface interaction affect the motion of a cricket ball. For this model, the ball will be treated as a point mass, and the bounce will not be included in this model since it will add a second layer of physics.
+The first version of the model relies on basic Newtonian mechanics and projectile motion principles that account only for gravity. This is the baseline model, which helps in understanding the simplest possible motion of the ball before understanding how factors such as drag, swing, spin, or surface interaction affect the motion of a cricket ball. For this model, the ball will be treated as a point mass, and the bounce will not be included, as it would add a second layer of physics.
 
 ## Assumptions
 - No air resistance
