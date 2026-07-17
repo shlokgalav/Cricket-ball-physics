@@ -88,4 +88,4 @@ This model should show a basic parabolic trajectory, before the bounce, of the b
 
 The simple bounce model adds one pitch contact using a coefficient of restitution.
 
-![Simple bounce model](figures/basic_bounce_motion.png)
+![basic bounce motion](figures/basic_bounce_motion.png)
