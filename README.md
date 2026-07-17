@@ -12,3 +12,4 @@ The first version of the model simulates the motion of a cricket ball under grav
 The simple bounce model adds one pitch contact using a coefficient of restitution.
 
 ![Simple bounce model](figures/basic_bounce_motion.png)
+
