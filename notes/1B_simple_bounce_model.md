@@ -62,11 +62,13 @@ The horizontal velocity stays constant in this first model because there is no a
 
 $$
 v_{x,new} = v_x
+$$
 
 Once the ball bounces, the vertical velocity reverses direction and decreases in magnitude by a fixed restitution coefficient, which measures how "bouncy" the collision with a surface is:  
 
 $$
 v_{y,bounce} = -e*v_y
+$$
 
 Here, e defines how much speed the ball has after the bounce. If e = 1, the bounce is perfectly elastic. elastic. If e = 0, the ball does not bounce. For this model, e I will use 0.6 as the coefficient of restitution. This means that the ball keeps 60% of its vertical speed and reverses direction. 0.6 is chosen as a baseline, not as a universal constant. A specific cricket-ball trajectory simulation study in the Sage Journals by Naveen Kumar specifically compares 0.4 and 0.6, making 0.6 a good baseline value to use for this model.
 
