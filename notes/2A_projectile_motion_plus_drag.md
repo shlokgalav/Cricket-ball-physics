@@ -97,7 +97,9 @@ Acceleration calculation using Newton's second law:
 
 $$
 F = ma
+
 ax = F_drag_x / m
+
 ay = -g + F_drag_y / m
 $$
 
@@ -105,6 +107,7 @@ Updating velocity:
 
 $$
 vx_new = vx + ax * dt
+
 vy_new = vy + ay * dt
 $$
 
@@ -112,6 +115,7 @@ Updating position:
 
 $$
 x_new = x + vx * dt
+
 y_new = y + vy * dt
 $$
 
