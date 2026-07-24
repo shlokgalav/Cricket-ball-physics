@@ -129,7 +129,7 @@ $$
 y_new = y + vy * dt
 $$
 
-# Expected Model Output
+## Expected Model Output
 When compared to model 1, this model should show the ball travelling a smaller horizontal distance since air resistance is acting opposite the velocity. The trajectory will still curve downward, but the ball will reach the pitch at a smaller horizontal distance.
 
 
