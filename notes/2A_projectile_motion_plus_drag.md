@@ -1,7 +1,7 @@
 # Projectile motion with drag
 
 ## Goal
-The second version of this model will take into account Newtonian mechanics and projectile motion principles that account for gravity along with air resistance. This is the next level, which will be compared to the baseline models from versions 1A and 1B. Model 2A will only model the ball in its flight affected by gravity and air resistance. Model 2B will also account for bounce along with the other principles. Similar to model 1, the ball will still be treated like a point mass.
+The second version of this model will take into account Newtonian mechanics and projectile motion principles that account for gravity along with air resistance. This is the next level, which will be compared to the baseline models from version 1A. Model 2A will only model the ball in its flight affected by gravity and air resistance. Model 2B will also account for bounce along with the other principles. Similar to model 1, the ball will still be treated like a point mass.
 
 ## Assumptions
 - The ball is treated as a point mass.
