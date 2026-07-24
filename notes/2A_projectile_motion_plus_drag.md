@@ -60,7 +60,8 @@ $$
 Components of drag force:
 
 $$
-F_drag_x = -F_drag * vx / v    
+F_drag_x = -F_drag * vx / v   
+
 F_drag_y = -F_drag * vy / v
 $$
 
