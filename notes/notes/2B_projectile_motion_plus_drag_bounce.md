@@ -133,7 +133,7 @@ $$
 Once the ball bounces, the vertical velocity reverses direction and decreases in magnitude by a fixed restitution coefficient, which measures how "bouncy" the collision with a surface is:
 
 $$
-v_{y,bounce} = -e*v_y
+v_{y,\text{after bounce}} = -e v_{y,\text{before bounce}}
 $$
 
 When the ball reaches the pitch, the model will apply the bounce condition:
