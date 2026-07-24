@@ -142,6 +142,8 @@ $$
 y \leq 0
 $$
 
-The vertical velocity will reverse direction and decrease in magnitude. After the bounce, the velocity of the ball will still be affected by gravity and air resistance.
+## Expected Model Output
+
+Compared with Model 1B, this model should show a shorter total horizontal distance because drag slows the ball before and after the bounce. The ball should still bounce once, but the post-bounce path should be lower and shorter than the no-drag bounce model. The vertical velocity will reverse direction and decrease in magnitude. After the bounce, the velocity of the ball will still be affected by gravity and air resistance.
 
 
