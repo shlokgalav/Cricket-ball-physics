@@ -54,27 +54,29 @@ $$
 The drag force magnitude:
 
 $$
-F_drag = 0.5 * rho * Cd * A * v^2
+F_{\text{drag}} = 0.5 * rho * Cd * A * v^2
 $$
 
 Components of drag force:
 
 $$
-F_drag_x = -F_drag * vx / v   
-
-F_drag_y = -F_drag * vy / v
+F_{\text{drag},x} = -F_{\text{drag}} \frac{v_x}{v}
 $$
 
+$$
+F_{\text{drag},y} = -F_{\text{drag}} \frac{v_y}{v}
+$$
 
 The x and y components of the drag force come from the idea of a unit vector:
 
 $$
 \frac{\vec{v}}{v}
 =
-\left\langle \frac{v_x}{v}, \frac{v_y}{v} \right\rangle
+\left\langle
+\frac{v_x}{v},
+\frac{v_y}{v}
+\right\rangle
 $$
-
-
 
 Therefore, the drag force vector is:
 
