@@ -73,12 +73,11 @@ The x and y components of the drag force come from the idea of a unit vector:
 The x and y components of the drag force come from the idea of a unit vector:
 
 $$
-\frac{\vec{v}}{v}
-=
-\begin{bmatrix}
-\frac{v_x}{v} \\
-\frac{v_y}{v}
-\end{bmatrix}
+\hat{v}_x = \frac{v_x}{v}
+$$
+
+$$
+\hat{v}_y = \frac{v_y}{v}
 $$
 
 Therefore, the drag force vector is:
