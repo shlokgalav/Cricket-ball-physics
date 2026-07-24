@@ -55,7 +55,7 @@ $$
 The drag force magnitude:
 
 $$
-F_{\text{drag}} = 0.5 * rho * Cd * A * v^2
+F_{\text{drag}} = \frac{1}{2}\rho C_d A v^2
 $$
 
 Components of drag force:
