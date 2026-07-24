@@ -63,17 +63,17 @@ $$
 F_drag_x = -F_drag * vx / v   
 
 F_drag_y = -F_drag * vy / v
-$$
+
 
 The x and y components of the drag force come from the idea of a unit vector:
 
 $$
 \frac{\vec{v}}{v}
-$$
 =
-
 \left\langle \frac{v_x}{v}, \frac{v_y}{v} \right\rangle
 $$
+
+
 
 Therefore, the drag force vector is:
 
