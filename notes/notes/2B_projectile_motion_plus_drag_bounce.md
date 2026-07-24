@@ -70,9 +70,6 @@ $$
 
 The x and y components of the drag force come from the idea of a unit vector:
 
-
-The x and y components of the drag force come from the idea of a unit vector:
-
 $$
 \hat{v}_x = \frac{v_x}{v}
 $$
