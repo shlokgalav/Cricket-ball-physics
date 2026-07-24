@@ -72,6 +72,9 @@ The x and y components of the drag force come from the idea of a unit vector:
 $$
 \frac{\vec{v}}{v}
 =
+$$
+
+$$
 \left\langle
 \frac{v_x}{v},
 \frac{v_y}{v}
