@@ -136,7 +136,7 @@ When compared to model 1, this model should show the ball travelling a smaller h
 
 The second model adds drag along with gravity.
 
-![Projectile motion with drag](figures/projectile_motion_with_drag.png)
+![Projectile motion with drag](../figures/projectile_motion_with_drag.png)
 
 
 
