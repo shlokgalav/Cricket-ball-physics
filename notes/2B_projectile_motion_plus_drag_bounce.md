@@ -1,7 +1,7 @@
 # Projectile motion with drag and bounce
 
 ## Goal
-The second version of this model will take into account Newtonian mechanics and projectile motion principles that account for gravity along with air resistance. This is the next level, which will be compared to the baseline models from version 1A. Model 2B will also account for bounce along with the other principles. Similar to model 1, the ball will still be treated like a point mass.
+The second version of this model will take into account Newtonian mechanics and projectile motion principles that account for gravity along with air resistance. This is the next level, which will be compared to the baseline models from version 1B. Model 2B will also account for bounce along with the other principles. Similar to model 1, the ball will still be treated like a point mass.
 
 ## Assumptions
 - The ball is treated as a point mass.
@@ -12,6 +12,12 @@ The second version of this model will take into account Newtonian mechanics and 
 - Wind is ignored.
 - Spin is ignored.
 - Swing is ignored.
+-  One simple bounce is included.
+- The coefficient of restitution is constant and set to \(e = 0.6\).
+- The pitch is treated as a flat surface at \(y = 0\).
+- Only vertical velocity changes instantaneously during the bounce.
+- Horizontal friction during contact with the pitch is ignored.
+- The simulation stops when the ball reaches the pitch for the second time.
 
     ## Variables
 | Variable | Meaning |
