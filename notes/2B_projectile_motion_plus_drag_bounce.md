@@ -158,8 +158,7 @@ When compared to model 1, this model should show the ball travelling a smaller h
 
 This second model considers drag and gravity along with a simple bounce.
 
-![Projectile motion with drag and bounce](figures/projectile_motion_with_drag_bounce.png)
-
+![Projectile motion with drag and bounce](../figures/projectile_motion_with_drag_bounce.png)
 
 
 
