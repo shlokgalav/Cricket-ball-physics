@@ -13,3 +13,16 @@ The simple bounce model adds one pitch contact using a coefficient of restitutio
 
 ![Simple bounce model](figures/basic_bounce_motion.png)
 
+## Model 2A Output
+
+The second model adds drag along with gravity.
+
+![Projectile motion with drag](figures/projectile_motion_with_drag.png)
+
+## Model 2B Output
+
+This second model considers drag and gravity along with a simple bounce.
+
+![Projectile motion with drag and bounce](figures/projectile_motion_with_drag_bounce.png)
+
+
