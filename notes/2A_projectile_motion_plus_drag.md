@@ -132,6 +132,12 @@ $$
 ## Expected Model Output
 When compared to model 1, this model should show the ball travelling a smaller horizontal distance since air resistance is acting opposite the velocity. The trajectory will still curve downward, but the ball will reach the pitch at a smaller horizontal distance.
 
+## Model 2A Output
+
+The second model adds drag along with gravity.
+
+![Projectile motion with drag](figures/projectile_motion_with_drag.png)
+
 
 
 
