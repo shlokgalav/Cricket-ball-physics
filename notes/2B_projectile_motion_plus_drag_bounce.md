@@ -154,6 +154,12 @@ The vertical velocity will reverse direction and decrease in magnitude.
 ## Expected Model Output
 When compared to model 1, this model should show the ball travelling a smaller horizontal distance since air resistance is acting opposite the velocity. The trajectory will still curve downward, but the ball will reach the pitch at a smaller horizontal distance. After the contact with the pitch, the trajectory after the bounce will be similar, with the only difference being a smaller vertical velocity due to air resistance. 
 
+## Model 2B Output
+
+This second model considers drag and gravity along with a simple bounce.
+
+![Projectile motion with drag and bounce](figures/projectile_motion_with_drag_bounce.png)
+
 
 
 
