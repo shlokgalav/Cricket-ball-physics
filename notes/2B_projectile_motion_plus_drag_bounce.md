@@ -100,7 +100,7 @@ $$
 F_{D,y} = -F_D \frac{v_y}{v}
 $$
 
-Negative sign signifies that the drag force acts opposite the velocity
+The negative sign signifies that the drag force acts opposite the velocity
 
 Acceleration calculation using Newton's second law:
 
