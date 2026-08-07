@@ -35,11 +35,17 @@ The ball moves under gravity only.
 ### Version 1B: Basic bounce model
 The ball still moves under gravity only, but this model will consider the trajectory changes due to the bounce while ignoring swing or spin.
 
-### Version 2: Projectile Motion With Drag
+### Version 2A: Projectile Motion With Drag
 The ball moves under the influence of gravity and air resistance.
 
-### Version 3: Pace Bowling and Swing
+### Version 2B: Projectile Motion With Drag plus bounce
+The ball moves under the influence of gravity and air resistance, but this model will consider the change in trajectory due to bounce while ignoring swing and spin.
+
+### Version 3A: Pace Bowling and Swing
 The model includes sideways movement caused by aerodynamic effects, such as the Magnus effect.
+
+### Version 3A: Pace Bowling and Swing
+
 
 ### Version 4: Spin Bowling and Surface Interaction
 The model examines how spin and pitch friction affect the turn after a bounce.
