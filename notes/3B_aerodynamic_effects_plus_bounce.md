@@ -12,11 +12,11 @@ The goal of the third model is to include more realistic physical effects. This 
 - The aerodynamic coefficients are treated as constant during a single simulation.
 - Wind is ignored.
 - A simple bounce is included.
-- One simple bounce is included.
 - The coefficient of restitution is constant and set to \(e = 0.6\).
 - The pitch is treated as a flat surface at \(y = 0\).
 - Only vertical velocity changes instantaneously during the bounce.
 - Horizontal friction during contact with the pitch is ignored.
+- Sideways friction during contact with the pitch is ignored.
 - The simulation stops when the ball reaches the pitch for the second time.
 - The Magnus effect is ignored.
 - Spin-related aerodynamic effects are reserved for Model 4.
@@ -26,8 +26,10 @@ The goal of the third model is to include more realistic physical effects. This 
 |---|---|
 | x | horizontal position |
 | y | vertical position |
+| z | sideways position |
 | vx | horizontal velocity |
 | vy | vertical velocity |
+| vz | sideways velocity |
 | v | total speed |
 | g | acceleration due to gravity |
 | m | mass of cricket ball |
@@ -192,13 +194,13 @@ The vertical velocity will reverse direction and decrease in magnitude.
 Because detailed pitch friction is not modeled:
 
 $$
-v_{x,\text{before}}
+v_{x,\text{before}} = v_{x,\text{before}}
 $$
 
 and:
 
 $$
-v_{z,\text{before}}
+v_{z,\text{before}} = v_{z,\text{before}}
 $$
 
 This is a simplifying assumption.
@@ -207,6 +209,6 @@ Detailed changes in sideways motion, spin, friction, and turn during pitch conta
 
 
 ## Expected Model Output
-Model 3B will be compared to Model 2B. The ball should still follow the same horizontal and vertical trajectories, as the drag force and gravity are still present. The ball should develop some sideways motion before the bounce. The sideways velocity and forward velocity should not change due to the bounce since pitch friction is ignored. The primary output should be a three-dimensional trajectory showing seam-induced swing before and after one simplified bounce.
+Model 3B will be compared to Model 2B. The forward and vertical motion should remain broadly similar to Model 2B, as the drag force and gravity are still present. The ball should develop some sideways motion before the bounce. The sideways velocity and forward velocity should not change due to the bounce since pitch friction is ignored. The primary output should be a three-dimensional trajectory showing seam-induced swing before and after one simplified bounce.
 
 
