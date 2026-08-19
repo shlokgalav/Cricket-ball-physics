@@ -25,4 +25,18 @@ This second model considers drag and gravity along with a simple bounce.
 
 ![Projectile motion with drag and bounce](figures/projectile_motion_with_drag_bounce.png)
 
+## Model 3A Output
+
+This third model considers gravity, drag, and seam-induced swing.
+
+![projectile motion with swing](figures/projectile_motion_with_swing.png)
+
+## Model 3A Output
+
+This third model considers gravity, drag, seam-induced swing, and bounce.
+
+![projectile motion with swing and bouncegit](figures/projectile_motion_with_swing_bounce.png)
+
+
+
 
