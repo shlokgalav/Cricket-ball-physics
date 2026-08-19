@@ -1,4 +1,4 @@
-# Projectile motion with additional aerodynamic effects such as the Magnus effect
+# Projectile motion with aerodynamic effects 
 
 ## Goal
 The goal of the third model is to include more realistic physical effects. This model will consider gravity and air resistance just like the previous models. This model expands on model 2A by introducing aerodynamic drag and seam-induced swing. Unlike other models, we will now also consider motion in three dimensions to model sideways motion due to aerodynamic drag. Model 3A will not include bounce as it will only consider the motion of the ball in the air.
