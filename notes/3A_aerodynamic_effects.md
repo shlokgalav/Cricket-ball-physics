@@ -55,8 +55,10 @@ v_y = v_0 \sin(\theta)
 $$
 
 $$
-v_z = 0  (Initial sideways velocity is zero as the bowler bowls)
+v_z = 0  
 $$
+
+(Initial sideways velocity is zero as the bowler bowls)
 
 The speed of the ball can be written as:
 
@@ -143,16 +145,19 @@ $$
 Net acceleration:
 
 Horizontal:
+
 $$
 \vec a_x = \frac{F_{D,x}}{m}
 $$
 
 Vertical:
+
 $$
 a_y=-g+\frac{F_{D,y}}{m}
 $$
 
 Sideways:
+
 $$
 a_z=\frac{F_{D,z}+F_{S,z}}{m}
 $$
