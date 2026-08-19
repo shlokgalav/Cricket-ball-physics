@@ -1,7 +1,7 @@
 ## Projectile motion with aerodynamic effects and bounce
 
 ## Goal
-The goal of the third model is to include more realistic physical effects. This model will consider gravity and air resistance just like the previous models. This model expands on model 2B by introducing aerodynamic drag and seam-induced swing. Unlike other models, we will now also consider three-dimensional motion to account for sideways motion due to aerodynamic drag. Model 3B will include bounce by considering the ball's motion in the air before and after the bounce, incorporating new aerodynamic effects.
+The goal of the third model is to include more realistic physical effects. This model will consider gravity and air resistance just like the previous models. This model expands on model 2B by introducing seam-induced swing. Unlike other models, we will now also consider three-dimensional motion to account for sideways motion due to aerodynamic drag. Model 3B will include bounce by considering the ball's motion in the air before and after the bounce, incorporating new aerodynamic effects.
 
 ## Assumptions
 - The ball is treated as a point mass.
@@ -18,6 +18,8 @@ The goal of the third model is to include more realistic physical effects. This 
 - Only vertical velocity changes instantaneously during the bounce.
 - Horizontal friction during contact with the pitch is ignored.
 - The simulation stops when the ball reaches the pitch for the second time.
+- The Magnus effect is ignored.
+- Spin-related aerodynamic effects are reserved for Model 4.
 
      ## Variables
 | Variable | Meaning |
