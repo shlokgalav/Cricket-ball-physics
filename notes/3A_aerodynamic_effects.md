@@ -212,7 +212,7 @@ $$
 
 ## Expected Model Output
 
-Model 3A should be compared to Model 2A. In comparison, Model 3A will have sideways motion. The forward and vertical trajectories should remain broadly similar to Model 2A, while the main new feature will be sideways displacement caused by seam-induced swing. The drag force and gravity are still acting on the ball. The sideways velocity should start at zero and then increase due to the swing force. The main new result should be a three-dimensional trajectory showing seam-induced swing during flight.
+Model 3A should be compared to Model 2A. In comparison, Model 3A will have sideways motion. The forward and vertical trajectories should remain broadly similar to Model 2A, since the drag force and gravity are still acting on the ball. The sideways velocity should start at zero and then increase due to the swing force. The main new result should be a three-dimensional trajectory showing seam-induced swing during flight.
 
 
 
