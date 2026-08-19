@@ -102,9 +102,15 @@ $$
 
 This equation follows from the force-coefficient formulation used for cricket-ball swing by Grimshaw, Briggs, and Atkins (2024) in a research paper.
 
+
 The coefficient (C_S) represents the aerodynamic asymmetry produced by factors such as seam orientation and ball-surface condition.
 
+
 In this simplified model, swing is assumed to act in the sideways (z)-direction.
+
+
+For this model, a C_S value of 0.30 will be used, as in the research paper by Grimshaw, Briggs, and Atkins (2024), they measured the coefficient in the range of 0.25 to 0.35.
+
 
 A signed value of (C_S) can represent the direction of swing:
 
@@ -128,7 +134,9 @@ $$
 F_{S,y}=0
 $$
 
+
 This force is purely sideways.
+
 
 The aerodynamic drag force then becomes the net force of the swing force and drag force:
 
@@ -142,7 +150,9 @@ $$
 \vec F_net = \vec F_g + \vec F_D + \vec F_S
 $$
 
+
 Net acceleration:
+
 
 Horizontal:
 
@@ -189,6 +199,11 @@ $$
 $$
 v_{z,\text{new}}=v_z+a_z\Delta t
 $$
+
+
+## Expected Model Output
+
+Model 3A should be compared to Model 2A. In comparison, Model 3A will have sideways motion. The vertical and horizontal trajectories will remain the same since we still have the drag force and gravity acting on the ball. The sideways velocity should start at zero and then increase as a result of the swing force. The main new result should be a three-dimensional trajectory showing seam-induced swing during flight.
 
 
 
