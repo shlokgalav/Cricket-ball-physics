@@ -211,9 +211,9 @@ Detailed changes in sideways motion, spin, friction, and turn during pitch conta
 ## Expected Model Output
 Model 3B will be compared to Model 2B. The forward and vertical motion should remain broadly similar to Model 2B, as the drag force and gravity are still present. The ball should develop some sideways motion before the bounce. The sideways velocity and forward velocity should not change due to the bounce since pitch friction is ignored. The primary output should be a three-dimensional trajectory showing seam-induced swing before and after one simplified bounce.
 
-## Model 3A Output
+## Model 3B Output
 
-This third model considers gravity, drag, and seam-induced swing.
+This third model considers gravity, drag, seam-induced swing, and bounce.
 
 ![projectile motion with swing](../figures/projectile_motion_with_swing_bounce.png)
 
