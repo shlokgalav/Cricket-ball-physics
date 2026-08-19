@@ -1,7 +1,7 @@
 # Projectile motion with aerodynamic effects 
 
 ## Goal
-The goal of the third model is to include more realistic physical effects. This model will consider gravity and air resistance just like the previous models. This model expands on model 2A by introducing aerodynamic drag and seam-induced swing. Unlike other models, we will now also consider motion in three dimensions to model sideways motion due to aerodynamic drag. Model 3A will not include bounce as it will only consider the motion of the ball in the air.
+The goal of the third model is to include more realistic physical effects. This model will consider gravity and air resistance just like the previous models. This model expands on model 2A by introducing seam-induced swing. Unlike other models, we will now also consider three-dimensional motion to account for sideways motion due to aerodynamic drag. Model 3A will not include bounce, as it will only consider the motion of the ball in the air.
 
 ## Coordinate System
 The model uses three spatial dimensions:
@@ -19,14 +19,18 @@ The model uses three spatial dimensions:
 - The aerodynamic coefficients are treated as constant during a single simulation.
 - Wind is ignored.
 - Bounce is ignored in Model 3A.
+- The Magnus effect is ignored.
+- Spin-related aerodynamic effects are reserved for Model 4.
 
     ## Variables
 | Variable | Meaning |
 |---|---|
 | x | horizontal position |
 | y | vertical position |
+| z | sideways position |
 | vx | horizontal velocity |
 | vy | vertical velocity |
+| vz | sideways velocity |
 | v | total speed |
 | g | acceleration due to gravity |
 | m | mass of cricket ball |
@@ -44,7 +48,7 @@ The model uses three spatial dimensions:
 
 ## Basic Equations
 
-The initial velocity is split into horizontal and vertical components:
+The initial velocity is split into horizontal, vertical, and sideways components:
 
 $$
 v_x = v_0 \cos(\theta)
@@ -82,6 +86,11 @@ $$
 F_{\text{drag},y} = -F_{\text{drag}} \frac{v_y}{v}
 $$
 
+$$
+F_{\text{drag},z} = -F_{\text{drag}} \frac{v_z}{v}
+$$
+
+
 Gravity acts only in the vertical direction:
 
 $$
@@ -109,7 +118,7 @@ The coefficient (C_S) represents the aerodynamic asymmetry produced by factors s
 In this simplified model, swing is assumed to act in the sideways (z)-direction.
 
 
-For this model, a C_S value of 0.30 will be used, as in the research paper by Grimshaw, Briggs, and Atkins (2024), they measured the coefficient in the range of 0.25 to 0.35.
+For this model, a  value of 0.30 will be used, as in the research paper by Grimshaw, Briggs, and Atkins (2024), they measured the coefficient in the range of 0.25 to 0.35.
 
 
 A signed value of (C_S) can represent the direction of swing:
@@ -138,7 +147,7 @@ $$
 This force is purely sideways.
 
 
-The aerodynamic drag force then becomes the net force of the swing force and drag force:
+The total aerodynamic force is the sum of the drag force and swing force:
 
 $$
 \vec F_aero = \vec F_D + \vec F_S
@@ -157,7 +166,7 @@ Net acceleration:
 Horizontal:
 
 $$
-\vec a_x = \frac{F_{D,x}}{m}
+a_x = \frac{F_{D,x}}{m}
 $$
 
 Vertical:
@@ -203,7 +212,7 @@ $$
 
 ## Expected Model Output
 
-Model 3A should be compared to Model 2A. In comparison, Model 3A will have sideways motion. The vertical and horizontal components of the ball's motion will remain the same since the drag force and gravity are still acting on the ball. The sideways velocity should start at zero and then increase due to the swing force. The main new result should be a three-dimensional trajectory showing seam-induced swing during flight.
+Model 3A should be compared to Model 2A. In comparison, Model 3A will have sideways motion. The forward and vertical trajectories should remain broadly similar to Model 2A, while the main new feature will be sideways displacement caused by seam-induced swing. The drag force and gravity are still acting on the ball. The sideways velocity should start at zero and then increase due to the swing force. The main new result should be a three-dimensional trajectory showing seam-induced swing during flight.
 
 
 
