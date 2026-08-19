@@ -20,7 +20,7 @@ The model uses three spatial dimensions:
 - Wind is ignored.
 - Bounce is ignored in Model 3A.
 
-      ## Variables
+    ## Variables
 | Variable | Meaning |
 |---|---|
 | x | horizontal position |
