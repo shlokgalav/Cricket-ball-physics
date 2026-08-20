@@ -185,6 +185,66 @@ $$
 $$
 
 
+Net Force:
+
+$$
+\vec F_g+\vec F_D+\vec F_M
+}
+$$
+
+Newton's second law gives:
+
+$$
+\vec a=
+\frac{\vec F_{\text{net}}}{m}
+$$
+
+Therefore:
+
+$$
+a_x=\frac{F_{\text{net},x}}{m}
+$$
+
+$$
+a_y=\frac{F_{\text{net},y}}{m}
+$$
+
+$$
+a_z=\frac{F_{\text{net},z}}{m}
+$$
+
+Updating position:
+
+$$
+x+v_x\Delta t
+$$
+
+$$
+y+v_y\Delta t
+$$
+
+$$
+z+v_z\Delta t
+$$
+
+Updating velocity:
+
+$$
+v_x+a_x\Delta t
+$$
+
+$$
+v_y+a_y\Delta t
+$$
+
+$$
+v_z+a_z\Delta t
+$$
+
+## Expected Model Output
+Model 4A, like model 3A, takes into account motion in three dimensions. The forward and vertical trajectories should remain broadly similar to Model 3A, since the drag force and gravity are still acting on the ball. The sideways motion will differ since a different force is acting on the ball in Model 4A. Additionally, the orientation of the spin axis will also alter the trajectory of the ball.
+
+
 
 
 
