@@ -141,21 +141,21 @@ The motion remains three-dimensional in this model.
 The drag force magnitude:
 
 $$
-F_{\text{drag}} = \frac{1}{2}\rho C_d A v^2
+F_{\text{drag}} = -\frac{1}{2}\rho C_d A v^2
 $$
 
 Components of drag force:
 
 $$
-F_{\text{drag},x} = -F_{\text{drag}} \frac{v_x}{v}
+F_{\text{drag},x} = F_{\text{drag}} \frac{v_x}{v}
 $$
 
 $$
-F_{\text{drag},y} = -F_{\text{drag}} \frac{v_y}{v}
+F_{\text{drag},y} = F_{\text{drag}} \frac{v_y}{v}
 $$
 
 $$
-F_{\text{drag},z} = -F_{\text{drag}} \frac{v_z}{v}
+F_{\text{drag},z} = F_{\text{drag}} \frac{v_z}{v}
 $$
 
 
