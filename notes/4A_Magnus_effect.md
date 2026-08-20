@@ -75,6 +75,16 @@ The cross product produces a direction perpendicular to both the spin axis and t
 
 This Magnus force equation is taken from Chinagodaba et al. (2026), who used it in a six-degree-of-freedom cricket spin-bowling flight model.
 
+For the baseline simulation:
+
+$$
+\boxed{C_M=0.18}
+$$
+
+Chinagodaba et al. measured Magnus coefficients of approximately 0.17 to 0.24 across their spin-bowling trials and used (C_M=0.18) as a representative calibrated value.
+
+Therefore, (C_M=0.18) is used as a simplified baseline rather than as a universal constant.
+
 
    ## Variables
 | Variable | Meaning |
@@ -100,4 +110,82 @@ This Magnus force equation is taken from Chinagodaba et al. (2026), who used it 
 | ay | vertical acceleration |
 | az | sideways acceleration |
 | dt | time step |
+
+## Basic Equations
+
+The initial velocity is split into horizontal, vertical, and sideways components:
+
+$$
+v_x = v_0 \cos(\theta)
+$$
+
+$$
+v_y = v_0 \sin(\theta)
+$$
+
+$$
+v_z = 0  
+$$
+
+(Initial sideways velocity is zero as the bowler bowls)
+
+The speed of the ball can be written as:
+
+$$
+v = \sqrt{v_x^2 + v_y^2 + v_z^2}
+$$
+
+The motion remains three-dimensional in this model.
+
+
+The drag force magnitude:
+
+$$
+F_{\text{drag}} = \frac{1}{2}\rho C_d A v^2
+$$
+
+Components of drag force:
+
+$$
+F_{\text{drag},x} = -F_{\text{drag}} \frac{v_x}{v}
+$$
+
+$$
+F_{\text{drag},y} = -F_{\text{drag}} \frac{v_y}{v}
+$$
+
+$$
+F_{\text{drag},z} = -F_{\text{drag}} \frac{v_z}{v}
+$$
+
+
+Gravity acts only in the vertical direction:
+
+$$
+F_{g,y}=-mg
+$$
+
+Therefore:
+
+$$
+a_{g,y}=-g
+$$
+
+
+
+Magnus Force:
+
+$$
+\boxed{
+\vec F_M=
+\frac12\rho A C_Mv^2
+\frac{\vec\omega\times\vec v}
+{\left|\vec\omega\times\vec v\right|}
+}
+$$
+
+
+
+
+
 
