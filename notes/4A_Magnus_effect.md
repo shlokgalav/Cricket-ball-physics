@@ -39,7 +39,7 @@ $$
 \sqrt{\omega_x^2+\omega_y^2+\omega_z^2}
 $$
 
-The direction of $$ (\vec\omega) $$ represents the spin axis.
+The direction of \vec\omega represents the spin axis.
 
 Different spin-axis orientations can therefore produce different Magnus-force directions.
 
