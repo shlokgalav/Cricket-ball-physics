@@ -189,7 +189,6 @@ Net Force:
 
 $$
 \vec F_g+\vec F_D+\vec F_M
-}
 $$
 
 Newton's second law gives:
