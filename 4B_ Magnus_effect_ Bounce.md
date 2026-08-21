@@ -133,11 +133,7 @@ as established in Model 4A.
 The net force, while the ball is airborne:
 
 $$
-\boxed{
-\vec F_{\text{net}}
-=
 \vec F_g+\vec F_D+\vec F_M
-}
 $$
 
 Newton's second law gives:
@@ -171,7 +167,6 @@ Two simplified effects are then applied:
 1. vertical bounce
 2. sideways frictional impulse
 
----
 
 ## Vertical Bounce
 
@@ -185,15 +180,11 @@ v_{y,\text{after}}
 }
 $$
 
-For consistency with Models 1B, 2B, and 3B:
 
 $$
 e=0.60
 $$
 
-The value \(e=0.60\) is retained as a project modeling assumption rather than introduced as a new literature-derived constant.
-
----
 
 # Normal Impulse
 
@@ -234,7 +225,7 @@ $$
 v_{y,\text{before}}<0
 $$
 
-the magnitude of the normal impulse can be written as:
+The magnitude of the normal impulse can be written as:
 
 $$
 \boxed{
@@ -246,7 +237,6 @@ $$
 
 This follows directly from the impulse-momentum and coefficient-of-restitution relationships used in collision mechanics.
 
----
 
 # Pitch Friction
 
@@ -262,7 +252,6 @@ $$
 
 Pandey and Rao used \(\mu=0.30\) in one of their cricket ball-pitch simulations and also investigated a wider range of friction coefficients.
 
----
 
 ## Frictional Impulse
 
@@ -464,49 +453,6 @@ $$
 }
 $$
 
----
-
-# Model Limitations
-
-Model 4B is intentionally simplified.
-
-It does not model:
-
-- the detailed deformation of the cricket ball or pitch
-- changing contact forces during impact
-- torque during the bounce
-- changes in angular velocity caused by pitch friction
-- rolling versus sliding transitions
-- changes in forward velocity caused by pitch friction
-- detailed differences between pitch surfaces
-
-These effects require a more advanced rigid-body/contact-mechanics treatment.
-
-The simplified model is intended to demonstrate the primary physical idea that friction between a spinning cricket ball and the pitch can produce post-bounce lateral deviation.
-
----
-
-# Sources
-
-## Spin Bowling and Magnus Effect
-
-Chinagodaba, B., Alway, P., Bull, H., Yadav, N., & King, M. (2026). *Sensitivity of Ball Landing Location to Variations in Release Velocity in Cricket Spin Bowling*. Applied Sciences, 16(8), 3991. DOI: 10.3390/app16083991.
-
-Used for:
-
-- the Magnus-force equation
-- the gravity + drag + Magnus flight model
-- the Magnus coefficient used in Model 4A and 4B
-
-## Cricket Ball-Pitch Friction
-
-Pandey, A., & Rao, C. L. (2020). *Numerical simulation of ball-pitch impact in cricket*. International Journal of Advances in Engineering Sciences and Applied Mathematics, 12, 39–43. DOI: 10.1007/s12572-020-00269-3.
-
-Used for:
-
-- the role of friction during cricket ball-pitch impact
-- the \(\mu=0.30\) baseline
-- evidence that friction influences rebound angle, rebound velocity, and exit spin
 
 ## Sliding Friction Impulse
 
