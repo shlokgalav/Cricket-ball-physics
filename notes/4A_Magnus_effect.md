@@ -22,10 +22,28 @@ The model uses three spatial dimensions:
 - Wind is ignored.
 - Bounce is ignored in Model 4A.
 - Pitch friction is ignored because Model 4A ends when the ball reaches the pitch.
+
+
+## Baseline Spin-Bowling Conditions
+
+For the baseline simulation:
+
+$$
+v_0 = 22\text{ m/s}
+$$
+
+$$
+C_M = 0.18
+$$
+
+$$
+\vec{\omega} =
+(161.64,\ 37.67,\ -59.14)\text{ rad/s}
+$$
   
 
-  ## New variables: Magnus force and angular velocity
-  The cricket ball now has an angular velocity vector:
+## New variables: Magnus force and angular velocity
+The cricket ball now has an angular velocity vector:
 
 $$
 \vec\omega=
