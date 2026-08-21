@@ -40,7 +40,8 @@ $$
 \vec{\omega} =
 (161.64,\ 37.67,\ -59.14)\text{ rad/s}
 $$
-  
+
+A baseline release speed of 22 m/s is used because experimentally measured spin-bowling release speeds in Chinagodaba et al. (2026) ranged from approximately 20 to 23 m/s. The value 22 m/s therefore provides a representative simplified baseline. Additionally, the baseline angular velocity vector is taken from a representative finger-spin delivery reported by Chinagodaba et al. (2026). The vector is reordered to match the coordinate system used in this project.
 
 ## New variables: Magnus force and angular velocity
 The cricket ball now has an angular velocity vector:
