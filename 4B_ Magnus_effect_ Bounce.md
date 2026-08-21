@@ -343,11 +343,8 @@ $$
 \boxed{\vec\omega_{\text{after}} = \vec\omega_{\text{before}}}
 $$
 
-This is an explicit simplifying assumption.
+This is another explicit simplification for model 4B.
 
-Real ball-pitch friction can change the ball's spin during impact. Pandey and Rao (2020), for example, found that the coefficient of friction affects the ball's exit spin.
-
-Model 4B does not attempt to calculate that change because doing so would require a more advanced rigid-body impact model involving torque, moment of inertia, and angular impulse.
 
 ## Second Pitch Contact
 
