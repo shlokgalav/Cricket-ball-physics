@@ -220,7 +220,6 @@ m(1+e)
 }
 $$
 
-This follows directly from the impulse-momentum and coefficient-of-restitution relationships used in collision mechanics.
 
 
 # Pitch Friction
@@ -235,7 +234,7 @@ $$
 \boxed{\mu=0.30}
 $$
 
-Pandey and Rao used \(\mu=0.30\) in one of their cricket ball-pitch simulations and also investigated a wider range of friction coefficients.
+Pandey and Rao used $\(\mu=0.30\)$ in one of their cricket ball-pitch simulations and also investigated a wider range of friction coefficients.
 
 
 ## Frictional Impulse
