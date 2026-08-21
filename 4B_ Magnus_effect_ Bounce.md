@@ -11,20 +11,7 @@ The same coordinate system from Models 3 and 4A is used:
 - \(x\): forward distance toward the batter
 - \(y\): vertical height above the pitch
 - \(z\): sideways displacement
-
-The ball's linear velocity is:
-
-$$
-\vec v=(v_x,v_y,v_z)
-$$
-
-The angular velocity of the spinning ball is:
-
-$$
-\vec\omega=(\omega_x,\omega_y,\omega_z)
-$$
-
----
+  
 
 ## Assumptions
 
@@ -75,19 +62,31 @@ $$
 | \(s\) | direction of friction-induced turn |
 | \(dt\) | simulation time step |
 
----
 
+## Basic equations
 
-### Total Speed
+The initial velocity is split into horizontal, vertical, and sideways components:
+
+$$
+v_x = v_0 \cos(\theta)
+$$
+
+$$
+v_y = v_0 \sin(\theta)
+$$
+
+$$
+v_z = 0  
+$$
+
+(Initial sideways velocity is zero as the bowler bowls)
 
 $$
 v=
 \sqrt{v_x^2+v_y^2+v_z^2}
 $$
 
----
 
-## Gravity
 
 Gravity acts vertically downward:
 
@@ -95,9 +94,7 @@ $$
 \vec F_g=(0,-mg,0)
 $$
 
----
 
-## Aerodynamic Drag
 
 The drag-force magnitude is:
 
@@ -113,9 +110,6 @@ $$
 -F_D\frac{\vec v}{v}
 $$
 
----
-
-## Magnus Effect
 
 The Magnus force caused by the spinning ball is:
 
@@ -128,11 +122,6 @@ $$
 }
 $$
 
-The cross product determines the direction of the Magnus force.
-
-This formulation is taken from Chinagodaba et al. (2026), who used gravity, drag, and a Magnus-type force to model cricket spin-bowling trajectories.
-
-For the baseline simulation:
 
 $$
 C_M=0.18
@@ -140,11 +129,8 @@ $$
 
 as established in Model 4A.
 
----
 
-## Net Force During Flight
-
-Before and after the bounce, while the ball is airborne:
+The net force, while the ball is airborne:
 
 $$
 \boxed{
@@ -163,7 +149,6 @@ $$
 
 The position and velocity are then updated using the same numerical method as the previous models.
 
----
 
 # Pitch Interaction
 
