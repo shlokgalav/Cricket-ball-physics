@@ -173,11 +173,7 @@ Two simplified effects are then applied:
 As in the previous bounce models, the vertical velocity reverses direction and decreases in magnitude:
 
 $$
-\boxed{
-v_{y,\text{after}}
-=
--e\,v_{y,\text{before}}
-}
+v_{y,\mathrm{after}} = -e\,v_{y,\mathrm{before}}
 $$
 
 
@@ -186,37 +182,26 @@ e=0.60
 $$
 
 
-# Normal Impulse
+## Normal Impulse
 
 Impulse represents the change in momentum during the short collision.
 
 The normal impulse from the pitch is:
 
 $$
-J_n
-=
-m
-\left(
-v_{y,\text{after}}
--
-v_{y,\text{before}}
-\right)
+J_n = m\left(v_{y,\text{after}} - v_{y,\text{before}}\right)
 $$
 
 Using the restitution equation:
 
 $$
-v_{y,\text{after}}
-=
--e\,v_{y,\text{before}}
+v_{y,\text{after}} = -e\,v_{y,\text{before}}
 $$
 
 gives:
 
 $$
-J_n
-=
--m(1+e)v_{y,\text{before}}
+J_n = -m(1+e)v_{y,\text{before}}
 $$
 
 Because the ball is moving downward immediately before impact:
@@ -275,7 +260,6 @@ J_f=
 \left|v_{y,\text{before}}\right|
 $$
 
----
 
 # Sideways Change in Velocity
 
@@ -308,7 +292,6 @@ This equation is a simplified result obtained by combining:
 2. impulse-momentum
 3. the sliding-friction impulse relation \(J_f=\mu J_n\)
 
----
 
 ## Direction of Turn
 
@@ -330,14 +313,7 @@ The value of \(s\) is chosen according to the direction of the ball's spin.
 The sideways velocity immediately after the bounce becomes:
 
 $$
-\boxed{
-v_{z,\text{after}}
-=
-v_{z,\text{before}}
-+
-s\mu(1+e)
-\left|v_{y,\text{before}}\right|
-}
+\boxed{v_{z,\text{after}} = v_{z,\text{before}} + s\mu(1+e) \left|v_{y,\text{before}}\right|}
 $$
 
 This is the main new equation introduced in the simplified Model 4B.
@@ -353,29 +329,20 @@ In the simplified model, pitch friction is used only to represent sideways turn.
 Therefore:
 
 $$
-\boxed{
-v_{x,\text{after}}
-=
-v_{x,\text{before}}
-}
+\boxed{v_{x,\text{after}} = v_{x,\text{before}}}
 $$
 
 In reality, friction and deformation during pitch contact can also change the forward speed of the ball.
 
 That effect is deliberately ignored to keep Model 4B focused on sideways turn.
 
----
 
 ## Spin During the Bounce
 
 The angular velocity is also kept constant:
 
 $$
-\boxed{
-\vec\omega_{\text{after}}
-=
-\vec\omega_{\text{before}}
-}
+\boxed{\vec\omega_{\text{after}} = \vec\omega_{\text{before}}}
 $$
 
 This is an explicit simplifying assumption.
@@ -383,33 +350,6 @@ This is an explicit simplifying assumption.
 Real ball-pitch friction can change the ball's spin during impact. Pandey and Rao (2020), for example, found that the coefficient of friction affects the ball's exit spin.
 
 Model 4B does not attempt to calculate that change because doing so would require a more advanced rigid-body impact model involving torque, moment of inertia, and angular impulse.
-
----
-
-# Motion After the Bounce
-
-Immediately after the bounce, the ball has:
-
-- reversed and reduced vertical velocity
-- changed sideways velocity because of pitch friction
-- unchanged forward velocity
-- unchanged angular velocity
-
-Once the ball leaves the pitch, friction no longer acts.
-
-The normal flight forces resume:
-
-$$
-\boxed{
-\vec F_{\text{net}}
-=
-\vec F_g+\vec F_D+\vec F_M
-}
-$$
-
-Gravity, drag, and the Magnus effect therefore continue to influence the post-bounce trajectory.
-
----
 
 ## Second Pitch Contact
 
@@ -427,7 +367,6 @@ $$
 
 and the simulation stops.
 
----
 
 # Expected Model Output
 
