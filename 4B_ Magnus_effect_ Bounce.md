@@ -276,7 +276,6 @@ $$
 \frac{J_f}{m}
 $$
 
-This equation is used by Doménech-Carbó, A. (2024) in their research paper about friction and turning.
 
 Substituting the frictional impulse gives:
 
