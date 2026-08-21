@@ -239,9 +239,8 @@ Pandey and Rao used $\(\mu=0.30\)$ in one of their cricket ball-pitch simulation
 
 ## Frictional Impulse
 
-Instead of calculating the friction force during every instant of the very short collision, Model 4B represents friction using an impulse.
-
-For a sliding collision, a simplified Coulomb-friction impulse can be written as:
+Instead of calculating the friction force at every instant of the very short collision, Model 4B represents friction using an impulse.
+Model 4B uses a relationship from a research paper.
 
 $$
 \boxed{
@@ -286,18 +285,11 @@ $$
 }
 $$
 
-This equation is a simplified result obtained by combining:
-
-1. the normal restitution relationship
-2. impulse-momentum
-3. the sliding-friction impulse relation \(J_f=\mu J_n\)
 
 
 ## Direction of Turn
 
-Friction must also have a direction.
-
-The simplified model introduces:
+Friction also has a direction.
 
 $$
 s=\pm1
@@ -318,7 +310,6 @@ $$
 
 This is the main new equation introduced in the simplified Model 4B.
 
-It represents the idea that spin causes the ball to slip against the pitch, friction acts during that contact, and the resulting impulse produces sideways deviation.
 
 ---
 
@@ -365,23 +356,8 @@ and the simulation stops.
 
 # Expected Model Output
 
-Model 4B should show:
+Model 4B should show that the direction of the post-bounce turn should reverse if the spin direction parameter $\(s\)$ is reversed. Increasing the coefficient of friction $\(\mu\)$ should produce a larger sideways velocity change in this simplified model. It includes the drag and force of gravity from previous models. However, instead of the swing force, we now have the Magnus force, which will result in a different trajectory from previous models.
 
-- Magnus-induced movement during the initial flight
-- a vertical bounce when the ball reaches the pitch
-- an instantaneous change in sideways velocity caused by the simplified frictional impulse
-- visible sideways turn after the bounce
-- continued gravity, drag, and Magnus effects during the post-bounce flight
-
-The direction of the post-bounce turn should reverse if the spin direction parameter \(s\) is reversed.
-
-Increasing the coefficient of friction \(\mu\) should produce a larger sideways velocity change in this simplified model.
-
-Model 4B therefore demonstrates the two major stages of spin bowling:
-
-$$
-\boxed{
-\text{spin-induced aerodynamic movement in flight}
 \rightarrow
 \text{friction-induced turn after pitching}
 }
