@@ -2,7 +2,7 @@
 
 ## Goal
 
-Model 4B extends Model 4A by adding a simplified interaction between the spinning cricket ball and the pitch. Unlike model 3, model 4 will focus on the Magnus effect, which is more relevant to spin bowling. This model ignores seam-induced swing for model simplicity. The ball's motion will be affected by gravity, drag, and the Magnus effect. Model 4A considers the ball's motion through the air before and after bounce. Bounce and pitch friction are included. 
+Model 4B extends Model 4A by adding a simplified interaction between the spinning cricket ball and the pitch. Unlike Model 3, Model 4 will focus on the Magnus effect, which is more relevant to spin bowling. This model ignores seam-induced swing for model simplicity. The ball's motion will be affected by gravity, drag, and the Magnus effect. Model 4B considers the ball's motion through the air before and after the bounce. Bounce and pitch friction are included. 
 
 ## Coordinate System
 
@@ -48,10 +48,10 @@ The same coordinate system from Models 3 and 4A is used:
 | \(m\) | mass of cricket ball |
 | \(r\) | radius of cricket ball |
 | \(A\) | cross-sectional area |
-| $\(\rho\$) | air density |
+| $\(\rho\)$ | air density |
 | \(C_D\) | drag coefficient |
 | \(C_M\) | Magnus coefficient |
-| $\(\vec\omega\$) | angular velocity vector |
+| $\(\vec\omega\)$ | angular velocity vector |
 | \(F_D\) | drag-force magnitude |
 | $\(\vec F_M\$) | Magnus-force vector |
 | \(g\) | gravitational acceleration |
@@ -335,6 +335,7 @@ $$
 $$
 
 This is another explicit simplification for model 4B.
+As the ball goes back up in the air, it is affected by drag, gravity, and the Magnus force.
 
 
 ## Second Pitch Contact
@@ -358,8 +359,4 @@ and the simulation stops.
 
 Model 4B should show that the direction of the post-bounce turn should reverse if the spin direction parameter $\(s\)$ is reversed. Increasing the coefficient of friction $\(\mu\)$ should produce a larger sideways velocity change in this simplified model. It includes the drag and force of gravity from previous models. However, instead of the swing force, we now have the Magnus force, which will result in a different trajectory from previous models.
 
-\rightarrow
-\text{friction-induced turn after pitching}
-}
-$$
 
