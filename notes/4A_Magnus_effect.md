@@ -16,7 +16,7 @@ The model uses three spatial dimensions:
 - The ball has a prescribed angular velocity vector.
 - Air resistance is included.
 - The drag coefficient is treated as constant.
-- The Magnus effect is ignored.
+- The Magnus effect is included.
 - The Magnus coefficient is treated as constant during a simulation.
 - Seam-induced swing is not included.
 - Wind is ignored.
