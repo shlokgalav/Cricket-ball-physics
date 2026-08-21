@@ -2,28 +2,7 @@
 
 ## Goal
 
-Model 4B extends Model 4A by adding a simplified interaction between the spinning cricket ball and the pitch.
-
-During flight, the ball is affected by:
-
-- gravity
-- aerodynamic drag
-- the Magnus effect
-
-When the ball first reaches the pitch, the model includes:
-
-- a vertical bounce
-- friction between the cricket ball and pitch
-- a simplified sideways change in velocity representing turn off the pitch
-
-The purpose of Model 4B is to model the two main stages of a spin-bowling delivery:
-
-1. aerodynamic movement caused by spin while the ball is in the air
-2. sideways deviation caused by friction when the spinning ball contacts the pitch
-
-The model deliberately simplifies the ball-pitch collision so that detailed rotational contact mechanics are not required.
-
----
+Model 4B extends Model 4A by adding a simplified interaction between the spinning cricket ball and the pitch. Unlike model 3, model 4 will focus on the Magnus effect, which is more relevant to spin bowling. This model ignores seam-induced swing for model simplicity. The ball's motion will be affected by gravity, drag, and the Magnus effect. Model 4A considers the ball's motion through the air before and after bounce. Bounce and pitch friction are included. 
 
 ## Coordinate System
 
@@ -57,20 +36,16 @@ $$
 - The Magnus coefficient is treated as constant.
 - The angular velocity vector is treated as constant during flight.
 - Wind is ignored.
-- Seam-induced swing is not included separately.
+- Seam-induced swing is not included.
 - One bounce is included.
 - The pitch is represented as a flat surface at \(y=0\).
 - The coefficient of restitution is treated as constant.
 - The coefficient of friction between the ball and pitch is treated as constant.
 - The collision with the pitch is treated as instantaneous.
-- The ball is assumed to slide during the simplified pitch contact.
-- Pitch friction is modeled only through a sideways frictional impulse that produces turn.
 - The forward velocity is not changed instantaneously by pitch friction in this simplified model.
-- Detailed torque and angular-momentum transfer between the ball and pitch are not modeled.
 - The ball's spin vector is not changed during the bounce.
 - The simulation stops when the ball reaches the pitch for the second time.
 
----
 
 ## Variables
 
@@ -102,9 +77,6 @@ $$
 
 ---
 
-## Flight Before the Bounce
-
-Before the ball reaches the pitch, Model 4B uses the same flight equations as Model 4A.
 
 ### Total Speed
 
