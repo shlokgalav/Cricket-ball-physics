@@ -11,7 +11,7 @@ The model uses three spatial dimensions:
 - \(z\): sideways displacement
 
 ## Assumptions
-- The ball is treated as a point mass.
+- The translational motion of the ball is tracked through its center of mass.
 - Gravity is constant.
 - The ball has a prescribed angular velocity vector.
 - Air resistance is included.
