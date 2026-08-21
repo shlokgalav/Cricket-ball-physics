@@ -332,9 +332,7 @@ $$
 \boxed{v_{x,\text{after}} = v_{x,\text{before}}}
 $$
 
-In reality, friction and deformation during pitch contact can also change the forward speed of the ball.
-
-That effect is deliberately ignored to keep Model 4B focused on sideways turn.
+For simplification, forward velocity change is not included.
 
 
 ## Spin During the Bounce
