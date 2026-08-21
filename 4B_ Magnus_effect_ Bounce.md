@@ -51,12 +51,12 @@ The same coordinate system from Models 3 and 4A is used:
 | \(\rho\) | air density |
 | \(C_D\) | drag coefficient |
 | \(C_M\) | Magnus coefficient |
-| \(\vec\omega\) | angular velocity vector |
+| $\(\vec\omega\$) | angular velocity vector |
 | \(F_D\) | drag-force magnitude |
-| \(\vec F_M\) | Magnus-force vector |
+| $\(\vec F_M\$) | Magnus-force vector |
 | \(g\) | gravitational acceleration |
 | \(e\) | coefficient of restitution |
-| \(\mu\) | coefficient of friction |
+| $\(\mu\$) | coefficient of friction |
 | \(J_n\) | normal impulse during the bounce |
 | \(J_f\) | sideways frictional impulse |
 | \(s\) | direction of friction-induced turn |
