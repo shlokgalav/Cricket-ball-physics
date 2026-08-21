@@ -276,6 +276,8 @@ $$
 \frac{J_f}{m}
 $$
 
+This equation is used by Doménech-Carbó, A. (2024) in their research paper about friction and turning.
+
 Substituting the frictional impulse gives:
 
 $$
@@ -324,7 +326,7 @@ It represents the idea that spin causes the ball to slip against the pitch, fric
 
 ## Forward Velocity During the Bounce
 
-In the simplified model, pitch friction is used only to represent sideways turn.
+In the simplified model, pitch friction is used only to represent a sideways turn.
 
 Therefore:
 
@@ -387,18 +389,3 @@ $$
 }
 $$
 
-
-## Sliding Friction Impulse
-
-Doménech-Carbó, A. (2024). *Independent friction-restitution modeling of collisions: application to planar sphere rebound on a massive surface*. European Journal of Physics, 45, 065004. DOI: 10.1088/1361-6404/ad7c99.
-
-Used for:
-
-- impulse-based modeling of short collisions
-- the sliding-regime relationship
-
-$$
-J_f=\mu J_n
-$$
-
-- combining friction and restitution in a simplified sphere-surface collision
