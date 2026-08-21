@@ -48,7 +48,7 @@ The same coordinate system from Models 3 and 4A is used:
 | \(m\) | mass of cricket ball |
 | \(r\) | radius of cricket ball |
 | \(A\) | cross-sectional area |
-| \(\rho\) | air density |
+| $\(\rho\$) | air density |
 | \(C_D\) | drag coefficient |
 | \(C_M\) | Magnus coefficient |
 | $\(\vec\omega\$) | angular velocity vector |
@@ -57,8 +57,8 @@ The same coordinate system from Models 3 and 4A is used:
 | \(g\) | gravitational acceleration |
 | \(e\) | coefficient of restitution |
 | $\(\mu\$) | coefficient of friction |
-| \(J_n\) | normal impulse during the bounce |
-| \(J_f\) | sideways frictional impulse |
+| $\(J_n\$) | normal impulse during the bounce |
+| $\(J_f\$) | sideways frictional impulse |
 | \(s\) | direction of friction-induced turn |
 | \(dt\) | simulation time step |
 
