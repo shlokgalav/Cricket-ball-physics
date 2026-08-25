@@ -47,7 +47,7 @@ This fourth model considers spin bowling with gravity, drag, and the Magnus effe
 
 This fourth model considers spin bowling with gravity, drag, the Magnus effect, and bounce.
 
-![Spin bowling with Magnus effect and bouncegit](figures/projectile_motion_with_swing_bounce.png)
+![Spin bowling with Magnus effect and bouncegit](figures/spin_bowling_friction_bounce.png)
 
 
 
