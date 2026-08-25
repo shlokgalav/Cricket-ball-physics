@@ -263,6 +263,13 @@ $$
 Model 4A, like model 3A, takes into account motion in three dimensions. The forward and vertical trajectories should remain broadly similar to Model 3A, since the drag force and gravity are still acting on the ball. The sideways motion will differ since a different force is acting on the ball in Model 4A. Additionally, the orientation of the spin axis will also alter the trajectory of the ball.
 
 
+## Model 4A Output
+
+This fourth model considers spin bowling with gravity, drag, and the Magnus effect.
+
+![Spin bowling with Magnus effect](../figures/spin_bowling_magnus.png)
+
+
 
 
 
