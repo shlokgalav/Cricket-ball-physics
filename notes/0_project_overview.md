@@ -42,13 +42,18 @@ The ball moves under the influence of gravity and air resistance.
 The ball moves under the influence of gravity and air resistance, but this model will consider the change in trajectory due to bounce while ignoring swing and spin.
 
 ### Version 3A: Pace Bowling and Swing
-The model includes sideways movement caused by aerodynamic effects, such as the Magnus effect.
+The model includes sideways movement caused by aerodynamic effects, such as seam-induced swing.
 
-### Version 3A: Pace Bowling and Swing
+### Version 3B: Pace Bowling and Swing
+The model includes sideways movement caused by aerodynamic effects, such as seam-induced swing. Additionally, this model includes bounce while ignoring spin.
 
 
-### Version 4: Spin Bowling and Surface Interaction
-The model examines how spin and pitch friction affect the turn after a bounce.
+### Version 4A: Spin Bowling and Surface Interaction
+The model examines how spin and pitch friction affect the turn after a bounce. This model includes the Magnus effect due to its relevance in a spinning cricket ball.
+
+### Version 4A: Spin Bowling and Surface Interaction
+The model examines how spin and pitch friction affect the turn after a bounce. This model includes the Magnus effect due to its relevance in a spinning cricket ball. This model will also consider surface interaction with the pitch as the ball spins, which includes pitch friction.
+
 
 ## Initial Assumptions
 - The ball is treated as a point mass.
