@@ -41,7 +41,7 @@ This third model considers gravity, drag, seam-induced swing, and bounce.
 
 This fourth model considers spin bowling with gravity, drag, and the Magnus effect.
 
-![Spin bowling with Magnus effect](figures/projectile_motion_with_swing_bounce.png)
+![Spin bowling with Magnus effect](figures/spin_bowling_magnus.png)
 
 ## Model 4B Output
 
