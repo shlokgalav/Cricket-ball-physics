@@ -360,3 +360,10 @@ and the simulation stops.
 Model 4B should show that the direction of the post-bounce turn should reverse if the spin direction parameter $\(s\)$ is reversed. Increasing the coefficient of friction $\(\mu\)$ should produce a larger sideways velocity change in this simplified model. It includes the drag and force of gravity from previous models. However, instead of the swing force, we now have the Magnus force, which will result in a different trajectory from previous models.
 
 
+## Model 4B Output
+
+This fourth model considers spin bowling with gravity, drag, the Magnus effect, and bounce.
+
+![Spin bowling with Magnus effect and bouncegit](../figures/spin_bowling_friction_bounce.png)
+
+
